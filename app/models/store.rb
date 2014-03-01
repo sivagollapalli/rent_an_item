@@ -9,4 +9,6 @@ class Store
   has_many :admins, class_name: 'User'
 
   embeds_one :address
+
+  validate :name, presence: true, uniqueness: true
 end

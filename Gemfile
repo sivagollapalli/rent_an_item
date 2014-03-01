@@ -10,6 +10,7 @@ gem 'simple_form'
 gem 'mongoid_slug'
 gem 'mongoid_search', :git => 'git@github.com:mauriciozaffari/mongoid_search.git'
 gem 'cancan'
+gem 'bootstrap-sass', '~> 3.1.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
